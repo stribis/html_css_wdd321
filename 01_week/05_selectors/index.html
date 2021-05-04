@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selectors</title>
+  <style>
+
+  .container {
+    background: blue;
+  }
+
+  #mr-item {
+    background: red;
+  }
+
+  #mrs-item {
+    background: violet;
+  }
+
+  div ul {
+    list-style: none;
+  }
+
+  #mr-item ~ li {
+    color: palevioletred;
+  }
+
+  #mrs-item + li {
+    color: red;
+  }
+
+  li ul > li  {
+    color: lime;
+  }
+
+  li ul > li:hover {
+    text-decoration: underline;
+  }
+
+  #box {
+    width: 200px;
+    background-color: red;
+  }
+
+  #box::after {
+    content: ':D';
+  }
+
+  #box::before {
+    content: '🤘';
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <ul>
+      <li id="mr-item">item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+    </ul>
+  </div>
+  <div class="container">
+    <ol>
+      <li id="mrs-item">item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+    </ol>
+  </div>
+  <ul>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>
+      <ul>
+        <li>foo</li>
+        <li>bar</li>
+        <li>baz</li>
+      </ul>
+    </li>
+  </ul>
+
+  <div>
+    <a href="https://google.ch">Google</a>
+  </div>
+  <div id="box">I am a box</div>
+</body>
+</html>
