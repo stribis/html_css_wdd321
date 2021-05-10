@@ -27,9 +27,9 @@
   * :file_folder: [`05_css_selectors`](https://github.com/stribis/html_css_wdd321/tree/master/01_week/05_css_selectors)
 
 --- 
-<!-- 
+ 
 ### :two: Week 2: :two:
-### :file_folder: [`week_02`](https://github.com/stribis/html_css_wdd321/tree/master/week_02)
+### :file_folder: [`02_week`](https://github.com/stribis/html_css_wdd321/tree/master/02_week)
 #### HTML & CSS Basics
 
 * Units :straight_ruler:
@@ -38,10 +38,10 @@
     * `vw / vh` ( Relative to the viewport )
     * `em` ( Relative to font size of the parent)
     * `rem` ( Font size of the root element )
-  * :file_folder: [`01_units`](https://github.com/stribis/html_css_wdd321/tree/master/week_02/01_units)
+  * :file_folder: [`01_units`](https://github.com/stribis/html_css_wdd321/tree/master/02_week/01_units)
 * `block` vs `inline` vs `inline-block`
   * Learning about difference between the `display` properties
-  * :file_folder: [`02_blockVSinline`](https://github.com/stribis/html_css_wdd321/tree/master/week_02/02_blockVSinline)
+  * :file_folder: [`02_blockVSinline`](https://github.com/stribis/html_css_wdd321/tree/master/02_week/02_blockVSinline)
 * Float & Clear :balloon:
   * Basic layouts with float and clear
     * We continued working with the example from last week
@@ -52,7 +52,7 @@
     * `position: relative`
     * `position: absolute`
     * `position: fixed`
-  * :file_folder: [`03_positioning`](https://github.com/stribis/html_css_wdd321/tree/master/week_02/03_positioning)
+  * :file_folder: [`03_positioning`](https://github.com/stribis/html_css_wdd321/tree/master/02_week/03_positioning)
 * Flex Basics :muscle:
   * Played around with a container and the different flex properties
     * `display: flex`
@@ -60,14 +60,15 @@
     * `align-items`
     * `flex-direction`
     * and more ...
-  * :file_folder: [`04_flex_basics`](https://github.com/stribis/html_css_wdd321/tree/master/week_02/04_flex_basics)
+  * :file_folder: [`04_flex_basics`](https://github.com/stribis/html_css_wdd321/tree/master/02_week/04_flex_basics)
 * Basic Flex Layout :muscle:
   * Created a simple layout using Flex
     * Very similar to 01_week/01_starting_blocks but with flex
-  * :file_folder: [`05_flex_layout_basic`](https://github.com/stribis/html_css_wdd321/tree/master/week_02/05_flex_layout_basic)
+  * :file_folder: [`05_flex_layout_basic`](https://github.com/stribis/html_css_wdd321/tree/master/02_week/05_flex_layout_basic)
 
 --- 
 
+<!--
 ### :three: Week 3: :three:
 ### :file_folder: [`week_03`](https://github.com/stribis/html_css_wdd321/tree/master/week_03)
 #### HTML & CSS Basics
