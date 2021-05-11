@@ -7,12 +7,12 @@
 
 body {
   height: 100vh;
+  font-family: 'Verdana', sans-serif;
 }
 
 header {
-  padding: 4rem 5rem 0 5rem;
+  padding: 2rem 5rem 0 5rem;
   width: 100%;
-  
   background: aquamarine;
 }
 
@@ -25,8 +25,12 @@ header > img {
   width: auto;
 }
 
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
 header nav li {
-  display: inline-block;
   margin-right: 1.5rem;
   border: palevioletred 2px solid;
   border-bottom: none;
@@ -46,27 +50,58 @@ header nav a {
   color: black;
   text-decoration: none;
   font-size: 1.6rem;
+} 
+
+.main-container { 
+  display: flex;
 }
 
-
-
 main {
-  float: left;
+
+  padding: 15rem 5rem;
   width: 70%;
-  height: 70%;
   background: palevioletred;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main h3 {
+ font-size: 2rem;
+ margin-bottom: 1rem;
+}
+
+main p {
+  margin-bottom: 2rem;
 }
 
 aside {
-  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30%;
-  height: 70%;
   background: orangered;
 }
 
+aside ul {
+  list-style: none;
+}
+
+aside li {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+/* aside a {
+  font-size: 2rem;
+} */
+
 footer {
-  clear: both;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 10%;
   background: rgb(54, 255, 81);
 }

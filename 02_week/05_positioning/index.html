@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Positioning</title>
+  <style>
+
+    body {
+      min-height: 200vh;
+    }
+
+    .container {
+      margin: 2rem 0 0 1rem;
+      width: 80vw;
+      height: 80vh;
+      border: #222 solid 1px;
+      position: relative;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      border: dotted 1px black;
+    }
+
+    .static{ 
+      background: hotpink;
+      z-index: -9;
+    }
+
+    .relative{ 
+      background: lime;
+      position: relative;
+      left: 50px;
+      z-index: 1;
+    }
+
+    .absolute{ 
+      background: blueviolet;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .fixed{ 
+      background: red;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      z-index: 9999999;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box static">Static(d)</div>
+    <div class="box relative">Relative</div>
+    <div class="box absolute">Absolute</div>
+    <div class="box fixed">Fixed</div>
+  </div>
+</body>
+</html>
