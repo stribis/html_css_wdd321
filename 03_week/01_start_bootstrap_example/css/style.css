@@ -19,6 +19,15 @@ body {
   font-family: 'Lato' , sans-serif;
 }
 
+/* 00 General*/
+
+p{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.6;
+} 
+
 /* 01 Header */
 
 header nav {
@@ -56,4 +65,82 @@ header nav {
 .header-container h1 {
   text-align: center;
   font-size: 3rem;
+}
+
+/* 02 Info Section */
+
+.info {
+  /* background: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 6rem 12rem;
+}
+
+.info .info-box {
+  margin: 0 3rem;
+  /* background: lime; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info .info-box i{ 
+  font-size: 5rem;
+  color: rgb(34, 174, 255);
+  margin-bottom: 2rem;
+}
+
+.info .info-box h3{
+  margin-bottom: 1rem;
+  font-size: 2rem;
+} 
+
+
+
+/* 03 Showcase Section */
+
+.showcase-row {
+  background-color: blue;
+  display: flex;
+}
+
+.showcase-column {
+  background-color: orange;
+  width: 50%;
+}
+
+.showcase p {
+  text-align: left;
+}
+
+.showcase h2 {
+  font-size: 2.3rem;
+}
+
+.showcase-info {
+  padding: 10rem 3rem;
+}
+
+
+
+.showcase-image:nth-child(1){
+  background-image: url('../images/bg-showcase-1.jpg');
+}
+
+.showcase-image:nth-child(2){
+  background-image: url('../images/bg-showcase-2.jpg');
+
+}
+
+.showcase-image:nth-of-type(3){
+  background-image: url('../images/bg-showcase-3.jpg');
+  
+}
+
+.showcase-image {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
