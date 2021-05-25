@@ -126,16 +126,16 @@ header nav {
 
 
 
-.showcase-image:nth-child(1){
+.showcase .showcase-image:nth-child(1){
   background-image: url('../images/bg-showcase-1.jpg');
 }
 
-.showcase-image:nth-child(2){
+.showcase .showcase-image:nth-child(2){
   background-image: url('../images/bg-showcase-2.jpg');
 
 }
 
-.showcase-image:nth-of-type(3){
+.showcase .showcase-image:nth-child(3){
   background-image: url('../images/bg-showcase-3.jpg');
   
 }
