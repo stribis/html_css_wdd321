@@ -68,7 +68,7 @@
 
 --- 
 
-<!--
+
 ### :three: Week 3: :three:
 ### :file_folder: [`week_03`](https://github.com/stribis/html_css_wdd321/tree/master/week_03)
 #### HTML & CSS Basics
@@ -134,6 +134,9 @@
 * Form with CSS :page_with_curl:
   * The CSS involved in creating forms
     * :file_folder: [`05_forms_styled`](https://github.com/stribis/html_css_wdd321/tree/master/week_04/05_forms_styled)
+
+
+
 * Layout Exercise (ONLY HTML) :computer:
   * We went through identifying and setting the correct HTML elements needed for a specific layout
   * Here is the layout we were trying to recreate: https://cdn.discordapp.com/attachments/689086496208191671/714862960853516288/D__sae_320_02_html_css_examples_hazbin_flex.html.png
@@ -154,6 +157,8 @@
       ```
       * We will discuss the finished example next time
   * :file_folder: [`06_hazbin_layout_nur_html`](https://github.com/stribis/html_css_wdd321/tree/master/week_04/06_hazbin_layout_nur_html)
+
+<!--
 * Layout Exercise (Complete) :computer:
   * Use this if you want to compare your work with mine. 
     * Remember there are multiple solutions to one problem!
