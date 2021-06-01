@@ -31,6 +31,7 @@
   --ter-dark-color: #fda742;
   --qua-color: #fff;
   --font-main: 'Indie Flower', cursive;
+  /* --my-variable: flex; */
 }
 
 
@@ -54,6 +55,7 @@ body{
 h1{
   font-size: 3em;
   color: var(--sec-color);
+  /* display: var(--my-variable); */
 }
 h2{
   font-size: 2.5em;

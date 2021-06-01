@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown Navigation</title>
+  <style>
+
+    /* === Small CSS Reset === */
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    *, *::after, *::before{
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #222;
+    }
+
+    /* Nav */
+
+    nav {
+      background: red;
+    }
+
+    nav > ul {
+      display: flex;
+      justify-content: flex-end;
+      list-style: none;
+    }
+
+    nav > ul a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 1rem 2rem;
+    }
+
+    .trigger {
+      position: relative;
+    }
+
+    .dropdown {
+      background: green;
+      position: absolute;
+      display: flex;
+      list-style: none;
+      flex-direction: column;
+      top: 100%;
+      right: 0;
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: 1s;
+    }
+
+    .dropdown a {
+      padding: 1rem 0.5rem;
+    }
+
+    .trigger:hover .dropdown {
+     transform: scaleY(1);
+    }
+/* 
+    div {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      border: solid 1px blue;
+
+    }
+    .hide-me {
+      display: none;
+    } */
+
+  </style>
+</head>
+<body>
+  <!-- 
+    Navigation Bar
+    With min 2 items 
+  -->
+
+  <nav>
+    <ul>
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li class="trigger"><a href="#">Link 3</a>
+        <ul class="dropdown">
+          <li><a href="#">Sublink 1</a></li>
+          <li><a href="#">Sublink 2</a></li>
+          <li><a href="#">Sublink 3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+
+  <!-- <div></div>
+  <div class="hide-me"></div>
+  <div></div> -->
+
+</body>
+</html>
