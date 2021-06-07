@@ -1,0 +1,22 @@
+*Source*
+https://startbootstrap.github.io/startbootstrap-freelancer/
+
+*Fonts*
+
+H1 - H6, Navigation: Montserrat
+Other Text : Lato
+
+*Colors*
+
+Dark Blue: #2c3e50
+Teal: #1abc9c
+Grey: #212529
+Footer: #1a252f
+
+*Font-Icons*
+
+Star: https://fontawesome.com/v5.15/icons/star
+Facebook: https://fontawesome.com/v5.15/icons/facebook-f?style=brands
+Twitter: https://fontawesome.com/v5.15/icons/twitter?style=brands
+LinkedIn: https://fontawesome.com/v5.15/icons/linkedin-in?style=brands
+Dribble: https://fontawesome.com/v5.15/icons/dribbble?style=brands
