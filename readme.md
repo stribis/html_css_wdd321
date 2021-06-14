@@ -158,7 +158,6 @@
       * We will discuss the finished example next time
   * :file_folder: [`06_hazbin_layout_nur_html`](https://github.com/stribis/html_css_wdd321/tree/master/week_04/06_hazbin_layout_nur_html)
 
-<!--
 * Layout Exercise (Complete) :computer:
   * Use this if you want to compare your work with mine. 
     * Remember there are multiple solutions to one problem!
@@ -218,7 +217,7 @@
   * :file_folder: [`08_animated_dd`](https://github.com/stribis/html_css_wdd321/tree/master/week_06/08_animated_dd)
 
 
----
+<!---
 ### :seven: Week 7: :seven:
 ### :file_folder: [`week_07`](https://github.com/stribis/html_css_wdd321/tree/master/week_07)
 #### HTML & CSS Repetition Week

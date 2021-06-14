@@ -206,8 +206,6 @@
       line-height: 1.3em;
     }
 
-   
-    
     .contact{
       /* min-height: 90vh; */
       background-color: #fff;
@@ -243,6 +241,19 @@
       border: none;
     }
 
+    .contact label{
+      position: absolute;
+      left: -10000px;
+      display: block;
+      height: 1px;
+    }
+
+
+    .offscreen-nav {
+      position: absolute;
+      left: -1000000px;
+
+    }
     /* === Rest === */
 
     footer{
@@ -252,6 +263,14 @@
   </style>
 </head>
 <body>
+  <nav role="sr-navigation" class="offscreen-nav">
+    <ul>
+      <li><a href="#portfolio">view portfolio</a></li>
+      <li><a href="#about">learn about us</a></li>
+      <li><a href="#contact">contact us</a></li>
+    </ul>
+  </nav>
+
   <nav>
     <h2>Start Bootstrap</h2>
     <ul>
@@ -293,9 +312,13 @@
     <h1>CONTACT</h1>
     <hr>
     <form>
+      <label for="full-name">Full Name</label>
       <input type="text" name="full-name" id="full-name" placeholder="Full name">
+      <label for="email">Email Address</label>
       <input type="email" name="email" id="email" placeholder="Email address">
+      <label for="phone">Telephone Number</label>
       <input type="tel" name="phone" id="phone" placeholder="Phone number">
+      <label for="message">Leave your message</label>
       <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
       <button type="submit">Send</button>
     </form>
